@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEBC26826DD51A900D25CED /* NamazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBC26726DD51A900D25CED /* NamazApp.swift */; };
+		BAEBC26A26DD51A900D25CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBC26926DD51A900D25CED /* ContentView.swift */; };
+		BAEBC26C26DD51AA00D25CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEBC26B26DD51AA00D25CED /* Assets.xcassets */; };
+		BAEBC26F26DD51AB00D25CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEBC26E26DD51AB00D25CED /* Preview Assets.xcassets */; };
+		BAEBC27826DD53D000D25CED /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = BAEBC27726DD53D000D25CED /* Adhan */; };
+		BAEBC27A26DD543B00D25CED /* Vakitler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBC27926DD543B00D25CED /* Vakitler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAEBC26426DD51A900D25CED /* Namaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Namaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEBC26726DD51A900D25CED /* NamazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazApp.swift; sourceTree = "<group>"; };
+		BAEBC26926DD51A900D25CED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAEBC26B26DD51AA00D25CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEBC26E26DD51AB00D25CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAEBC27026DD51AB00D25CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEBC27926DD543B00D25CED /* Vakitler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vakitler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEBC26126DD51A900D25CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBC27826DD53D000D25CED /* Adhan in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEBC25B26DD51A900D25CED = {
+			isa = PBXGroup;
+			children = (
+				BAEBC26626DD51A900D25CED /* Namaz */,
+				BAEBC26526DD51A900D25CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEBC26526DD51A900D25CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBC26426DD51A900D25CED /* Namaz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEBC26626DD51A900D25CED /* Namaz */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBC26726DD51A900D25CED /* NamazApp.swift */,
+				BAEBC26926DD51A900D25CED /* ContentView.swift */,
+				BAEBC27926DD543B00D25CED /* Vakitler.swift */,
+				BAEBC26B26DD51AA00D25CED /* Assets.xcassets */,
+				BAEBC27026DD51AB00D25CED /* Info.plist */,
+				BAEBC26D26DD51AB00D25CED /* Preview Content */,
+			);
+			path = Namaz;
+			sourceTree = "<group>";
+		};
+		BAEBC26D26DD51AB00D25CED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBC26E26DD51AB00D25CED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEBC26326DD51A900D25CED /* Namaz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEBC27326DD51AB00D25CED /* Build configuration list for PBXNativeTarget "Namaz" */;
+			buildPhases = (
+				BAEBC26026DD51A900D25CED /* Sources */,
+				BAEBC26126DD51A900D25CED /* Frameworks */,
+				BAEBC26226DD51A900D25CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Namaz;
+			packageProductDependencies = (
+				BAEBC27726DD53D000D25CED /* Adhan */,
+			);
+			productName = Namaz;
+			productReference = BAEBC26426DD51A900D25CED /* Namaz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEBC25C26DD51A900D25CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BAEBC26326DD51A900D25CED = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BAEBC25F26DD51A900D25CED /* Build configuration list for PBXProject "Namaz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = BAEBC25B26DD51A900D25CED;
+			packageReferences = (
+				BAEBC27626DD53D000D25CED /* XCRemoteSwiftPackageReference "adhan-swift" */,
+			);
+			productRefGroup = BAEBC26526DD51A900D25CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEBC26326DD51A900D25CED /* Namaz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEBC26226DD51A900D25CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBC26F26DD51AB00D25CED /* Preview Assets.xcassets in Resources */,
+				BAEBC26C26DD51AA00D25CED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEBC26026DD51A900D25CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBC26A26DD51A900D25CED /* ContentView.swift in Sources */,
+				BAEBC26826DD51A900D25CED /* NamazApp.swift in Sources */,
+				BAEBC27A26DD543B00D25CED /* Vakitler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAEBC27126DD51AB00D25CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEBC27226DD51AB00D25CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEBC27426DD51AB00D25CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Namaz/Preview Content\"";
+				DEVELOPMENT_TEAM = 742HFHWRDJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Namaz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Namaz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bozkus.Namaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEBC27526DD51AB00D25CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Namaz/Preview Content\"";
+				DEVELOPMENT_TEAM = 742HFHWRDJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Namaz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Namaz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bozkus.Namaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEBC25F26DD51A900D25CED /* Build configuration list for PBXProject "Namaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBC27126DD51AB00D25CED /* Debug */,
+				BAEBC27226DD51AB00D25CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEBC27326DD51AB00D25CED /* Build configuration list for PBXNativeTarget "Namaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBC27426DD51AB00D25CED /* Debug */,
+				BAEBC27526DD51AB00D25CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BAEBC27626DD53D000D25CED /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BAEBC27726DD53D000D25CED /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAEBC27626DD53D000D25CED /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BAEBC25C26DD51A900D25CED /* Project object */;
+}
